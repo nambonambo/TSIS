@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Andrey",
+    "email": "andrey@gmail.com",
+    "birthday": "1990-05-14",
+    "group": "Friend",
+    "phones": [
+      {"phone": "+7 776 321 5874", "type": "mobile"}
+    ]
+  },
+  {
+    "name": "Robert",
+    "email": "robert@work.com",
+    "birthday": "1985-11-22",
+    "group": "Work",
+    "phones": [
+      {"phone": "+7 772 473 2834", "type": "work"}
+    ]
+  },
+  {
+    "name": "Nina",
+    "email": "nina@mail.ru",
+    "birthday": "1992-03-08",
+    "group": "Family",
+    "phones": [
+      {"phone": "+7 873 781 1234", "type": "home"}
+    ]
+  },
+  {
+    "name": "Poll",
+    "email": "poll@gmail.com",
+    "birthday": "1998-07-30",
+    "group": "Other",
+    "phones": [
+      {"phone": "+7 234 432 2342", "type": "mobile"}
+    ]
+  }
+]
