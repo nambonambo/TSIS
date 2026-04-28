@@ -1,52 +1,12 @@
 [
   {
-    "name": "\u0444\u0442\u0432\u043a\u0443\u043d",
-    "score": 1270,
+    "name": "test",
+    "score": 800,
     "distance": 100
   },
   {
-    "name": "\u043b\u043e\u0440\u0434\u043e\u0440",
-    "score": 1180,
-    "distance": 100
-  },
-  {
-    "name": "asd",
-    "score": 1000,
-    "distance": 100
-  },
-  {
-    "name": "\u0442\u0444\u044c\u0440",
-    "score": 960,
-    "distance": 100
-  },
-  {
-    "name": "andrey",
-    "score": 780,
-    "distance": 100
-  },
-  {
-    "name": "steav",
-    "score": 457,
-    "distance": 45
-  },
-  {
-    "name": "\u0442\u0444\u044c\u0440",
-    "score": 394,
-    "distance": 44
-  },
-  {
-    "name": "\u0444\u0442\u0432\u043a\u0443\u043d",
-    "score": 186,
-    "distance": 17
-  },
-  {
-    "name": "\u0444\u0442\u0432\u043a\u0443\u043d",
-    "score": 134,
-    "distance": 20
-  },
-  {
-    "name": "\u0444\u0442\u0432\u043a\u0443\u043d",
-    "score": 129,
-    "distance": 15
+    "name": "test",
+    "score": 121,
+    "distance": 18
   }
 ]
