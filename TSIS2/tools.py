@@ -43,3 +43,27 @@ def draw_rhombus(surface, color, x0, y0, x1, y1):
         (x0, y0 + dy // 2),
     ]
     pygame.draw.polygon(surface, color, pts, 2)
+
+
+def draw_pencil(surface, color, x0, y0, x1, y1, width):
+    pygame.draw.line(surface, color, (x0, y0), (x1, y1), width)
+
+
+def draw_line(surface, color, x0, y0, x1, y1, width):
+    pygame.draw.line(surface, color, (x0, y0), (x1, y1), width)
+
+
+def flood_fill(surface, x, y, new_color):
+    old_color = surface.get_at((x, y))[:3]
+    if old_color == new_color:
+        return
+    stack = [(x, y)]
+    w, h = surface.get_size()
+    while stack:
+        cx, cy = stack.pop()
+        if cx < 0 or cx >= w or cy < 0 or cy >= h:
+            continue
+        if surface.get_at((cx, cy))[:3] != old_color:
+            continue
+        surface.set_at((cx, cy), new_color)
+        stack += [(cx+1, cy), (cx-1, cy), (cx, cy+1), (cx, cy-1)]
